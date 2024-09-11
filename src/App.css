@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+}
+
+form {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+form>*,
+form>div>input {
+  padding: 0.5em;
+}
+
+form .error {
+  font-size: 0.7em;
+  margin-top: 0.5em;
+}
+
+form button,
+input,
+form>div {
+  width: 13em;
+}
+
+form button{
+  margin-left: -1.4em;
+}
